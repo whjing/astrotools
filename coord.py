@@ -4,6 +4,8 @@ from astropy.coordinates import SkyCoord
 from astropy.coordinates import FK5
 import pandas as pd
 
+# 主程序
+
 def convCoord(coord, frame_in, frame_out=None):
     if frame_in == "J2000":
         frame_in = "fk5"
